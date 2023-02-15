@@ -1,11 +1,53 @@
+# Basedata - Project Specific
+
+*.png
+*.bloom
+venv/
+scratchpad.py
+
+.github/
+**/*.db
+**/archive/
+**/autogen
+
+.tmp.drivedownload
+.tmp.driveupload
+
+sandbox/
+
+.idea/
+.idea/*
+**/index.pb
+**/idea/*
+.idea/sonarlint/issuestore/index.pb
+resources/crypto/coinmarketcap/cmc_id_m
+# data files
+cache_tasks/*.csv
+cache_tasks/*.json
+cache_tasks/*.txt
+
+data_tasks/*.csv
+data_tasks/*.txt
+data_tasks/*.json
+
+data_exploration/*.csv
+data_exploration/*.txt
+data_exploration/*.json
+
+flaskapp/*.txt
+flaskapp/*.csv
+flaskapp/*.json
+
+/ori-cli/oricli.egg-info/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__
 *.py[cod]
 *$py.class
 
 # C extensions
-*.so
-
+\
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +169,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+**/.DS_Store
+
