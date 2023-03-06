@@ -13,7 +13,6 @@ django-htmx
 django-jazzmin
 django-rest-passwordreset
 djangorestframework
-fastapi
 gunicorn
 idna
 jinja2
