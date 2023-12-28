@@ -1,5 +1,11 @@
+aioboto3
+aiobotocore
+aiofile
 aiofiles
+aioredis
 arrow
+boto3
+botocore
 certifi
 chardet
 click
@@ -14,9 +20,14 @@ django-jazzmin
 django-rest-passwordreset
 djangorestframework
 gunicorn
+hiredis
 idna
 jinja2
 markupsafe
+numpy
+pandas
+pandas-market-calendars
+peewee
 pip
 psycopg2-binary
 pydantic
@@ -25,6 +36,8 @@ python-dotenv
 pytz
 redis
 requests
+rich
+scipy
 tqdm
 typing-extensions
 uamqp
